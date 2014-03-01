@@ -4,5 +4,12 @@
     <string name="app_name">KKV</string>
     <string name="action_settings">Settings</string>
     <string name="hello_world">Hello world!</string>
+    <string name="splash">Splash Screen</string>
+    <string name="logicalModelButton">Logical Model</string>
+    <string name="logicalModel">Logical Model</string>
+    <string name="title_activity_logical_model">LogicalModel</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="apply_hashtags_button">Apply HashTags</string>
 
 </resources>
