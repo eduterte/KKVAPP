@@ -1,7 +1,9 @@
 package net.kkv.app;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.os.Bundle;
+import android.view.View;
 
 public class myMainScreen extends Activity {
 
@@ -11,4 +13,11 @@ public class myMainScreen extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	}
+	
+    /** Called when the user clicks the logical model icon */
+    public void launchLM(View view) {
+        Intent launchLM = new Intent(this, LogicalModel.class);
+        startActivity(launchLM);
+        	
+    }
 }

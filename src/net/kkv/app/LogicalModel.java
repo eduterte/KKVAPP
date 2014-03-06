@@ -50,7 +50,7 @@ public class LogicalModel extends Activity {
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
-
+		
 		setContentView(R.layout.activity_logical_model);
 		setupActionBar();
 
