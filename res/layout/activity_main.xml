@@ -16,16 +16,11 @@
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-<<<<<<< HEAD
-        android:contentDescription="@string/logicalModelButton"
-        android:src="@drawable/lm_launcher" />
-        
-=======
-        android:layout_marginRight="16dp"
+		android:layout_marginRight="16dp"
         android:layout_marginTop="12dp"
         android:src="@drawable/lm_launcher"
-        android:onClick="launchLM"
+		android:onClick="launchLM"
         android:contentDescription="@string/logicalModelButton" />
->>>>>>> 9198162d786a57634eb80572c610f926ce3e133d
+
 
 </RelativeLayout>

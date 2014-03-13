@@ -2,12 +2,9 @@ package net.kkv.app;
 
 import android.app.Activity;
 import android.content.Intent;
-<<<<<<< HEAD
-=======
+
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
->>>>>>> 9198162d786a57634eb80572c610f926ce3e133d
 
 public class MainActivity extends Activity {
 
