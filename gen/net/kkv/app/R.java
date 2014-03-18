@@ -32,13 +32,16 @@ or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>na
         public static final int activity_vertical_margin=0x7f050001;
     }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
-        public static final int leafs=0x7f020001;
-        public static final int lm_launcher=0x7f020002;
-        public static final int logical_model=0x7f020003;
-        public static final int people=0x7f020004;
-        public static final int roundedbutton=0x7f020005;
-        public static final int ulu_hoku=0x7f020006;
+        public static final int hoa_aina=0x7f020000;
+        public static final int ic_launcher=0x7f020001;
+        public static final int ic_leaf=0x7f020002;
+        public static final int koa_aina=0x7f020003;
+        public static final int leafs=0x7f020004;
+        public static final int lm_launcher=0x7f020005;
+        public static final int lohe_aina=0x7f020006;
+        public static final int mahi_aina=0x7f020007;
+        public static final int people=0x7f020008;
+        public static final int ulu_hoku=0x7f020009;
     }
     public static final class id {
         public static final int action_settings=0x7f090002;
