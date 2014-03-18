@@ -42,6 +42,16 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="net.kkv.app.MainActivity" />
         </activity>
+        <activity
+            android:name="net.kkv.app.Logical"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_logical"
+            android:parentActivityName="net.kkv.app.myMainScreen"
+            android:theme="@style/FullscreenTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="net.kkv.app.myMainScreen" />
+        </activity>
     </application>
 
 </manifest>

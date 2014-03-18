@@ -4,7 +4,7 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.Menu;
-import android.view.View;
+
 
 public class MainActivity extends Activity {
 
@@ -16,7 +16,8 @@ public class MainActivity extends Activity {
         
         // Code to display the splash screen for set amount of Time
         Thread logoTimer = new Thread() {
-        	public void run() {
+        	@Override
+			public void run() {
         		try{
         			int logoTimer = 0;
         			while(logoTimer < 5000) {
