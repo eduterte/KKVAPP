@@ -11,13 +11,12 @@
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
     <string name="apply_hashtags_button">Apply HashTags</string>
-<<<<<<< HEAD
+
 	<string name="content">Image</string>
 	<string name="menu_settings">Settings</string>
     
-=======
+
     <string name="tab1">Tab 1</string>
     <string name="title_activity_logical">Logical Model</string>
 
->>>>>>> tabs
 </resources>

@@ -10,17 +10,34 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context=".myMainScreen" >
 
+    <ImageView
+        android:id="@+id/imgView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignTop="@+id/logicalButton"
+        android:layout_marginBottom="200dp"
+        android:layout_marginRight="135dp"
+        android:layout_weight="1"
+        android:src="@drawable/kkv_logo" />
+
     <ImageButton
         android:id="@+id/logicalButton"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
-		android:layout_marginRight="16dp"
-        android:layout_marginTop="12dp"
-        android:src="@drawable/lm_launcher"
-		android:onClick="launchLM"
-        android:contentDescription="@string/logicalModelButton" />
+        android:contentDescription="@string/logicalModelButton"
+        android:onClick="launchLM"
+        android:src="@drawable/lm_launcher" />
 
+    <Button
+        android:id="@+id/buttonLoadPictures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/logicalButton"
+        android:layout_below="@+id/logicalButton"
+        android:layout_weight="1"
+        android:text="Select Image" />
 
 </RelativeLayout>
