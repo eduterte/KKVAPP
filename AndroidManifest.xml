@@ -10,9 +10,11 @@
 
     <application
         android:allowBackup="false"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/ic_leaf"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
+        
+        //this is for splash screen
         <activity
             android:name="net.kkv.app.MainActivity"
             android:label="@string/app_name" >
@@ -22,6 +24,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
         //this is for home screen
         <activity
             android:name="net.kkv.app.myMainScreen"
@@ -42,6 +45,8 @@
                 android:name="android.support.PARENT_ACTIVITY"
                 android:value="net.kkv.app.MainActivity" />
         </activity>
+        
+            
     </application>
 
 </manifest>

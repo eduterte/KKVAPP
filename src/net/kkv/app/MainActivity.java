@@ -1,10 +1,10 @@
 package net.kkv.app;
 
-import android.os.Bundle;
 import android.app.Activity;
-import android.view.Menu;
 import android.content.Intent;
-import android.view.View;
+
+import android.os.Bundle;
+import android.view.Menu;
 
 public class MainActivity extends Activity {
 
@@ -16,7 +16,8 @@ public class MainActivity extends Activity {
         
         // Code to display the splash screen for set amount of Time
         Thread logoTimer = new Thread() {
-        	public void run() {
+        	@Override
+			public void run() {
         		try{
         			int logoTimer = 0;
         			while(logoTimer < 5000) {
